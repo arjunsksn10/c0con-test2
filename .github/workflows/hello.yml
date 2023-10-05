@@ -1,4 +1,4 @@
-on: [push]
+yon: [push]
 
 jobs:
   hello_world_job:
@@ -9,6 +9,6 @@ jobs:
       - id: foo
         uses: NeithLogistics/neith-hello@v3
         with:
-          who-to-greet: 'Alex'
+          who-to-greet: 'Feddy'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
